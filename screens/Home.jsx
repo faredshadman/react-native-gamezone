@@ -3,7 +3,7 @@ import { globalStyles } from "../styles/global";
 const Home = ({ navigation }) => {
   return (
     <View style={globalStyles.container}>
-      <Text style={globalStyles.titleText}>Home </Text>
+      <Text style={globalStyles.titleText}>HomePage</Text>
       <Button
         title="About"
         onPress={() =>
